@@ -2,6 +2,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
     <div id="pokedex">
       {/* Left side panel */}
       <div id="left-panel">
@@ -140,7 +141,7 @@ function App() {
               <div className="thin-button"></div>
               <div className="thin-button"></div>
             </div>
-            <div class="yellow-button yellow">
+            <div className="yellow-button yellow">
               <div className="big-dot light-yellow"></div>
             </div>
           </div>
@@ -152,6 +153,11 @@ function App() {
         </div>
       </div>
     </div>
+    <div className="search-container">
+      <input id="name-input" type="text" placeholder="name/id" />
+      <div id="search-btn" className="search-button"> Search</div>
+    </div>
+    </>
   );
 }
 
