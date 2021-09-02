@@ -328,6 +328,18 @@ body {
     height: 12px;
     width: 52px;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.control-button {
+    width: 26px;
+    height: 8px;
+    background-color: var(--main-buttons-color);
+}
+
+.control-button:hover {
+    background-color: #464646;
 }
 
 .nav-center-circle {
@@ -539,7 +551,7 @@ body {
 }
 
 .bottom-screens-container .right-panel-screen {
-    width: 64px;
+    width: 75px;
     height: 25px;
 }
 

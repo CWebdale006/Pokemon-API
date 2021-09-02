@@ -72,8 +72,8 @@ function App() {
                 <div className="nav-center-circle"></div>
                 <div className="nav-button-vertical"></div>
                 <div className="nav-button-horizontal">
-                  <div className="border-top"></div>
-                  <div className="border-bottom"></div>
+                  <div id="left" className="control-button"></div>
+                  <div id="right" className="control-button"></div>
                 </div>
               </div>
               <div className="bottom-right-nav-container">
